@@ -1,58 +1,80 @@
 import images from './images';
 
-const wines = [
+const special_soups = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Turkey Peppersoup',
+    price: '#13K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Catfish Peppersoup',
+    price: '#14K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Goatmeat Peppersoup',
+    price: '#15K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+   title: 'Ofada Stew',
+    price: '#15K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+   title: 'Egusi',
+    price: '#15K',
+    tags: '3 LTRS | Soup',
+  },
+  
+ {
+   title: 'Seafood Okro',
+    price: '#16K',
+    tags: '3 LTRS | Soup',
+  },
+   {
+   title: 'Ewudu & Gbegiri',
+    price: '#10K',
+    tags: '3 LTRS | Soup',
   },
 ];
 
-const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+const Protein_Pasta = [
+    {
+    title: 'Turkey Peppersoup',
+    price: '#13K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Catfish Peppersoup',
+    price: '#14K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Goatmeat Peppersoup',
+    price: '#15K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+   title: 'Ofada Stew',
+    price: '#15K',
+    tags: '3 LTRS | Special',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+   title: 'Egusi',
+    price: '#15K',
+    tags: '3 LTRS | Soup',
+  },
+  
+ {
+   title: 'Seafood Okro',
+    price: '#16K',
+    tags: '3 LTRS | Soup',
+  },
+   {
+   title: 'Ewudu & Gbegiri',
+    price: '#10K',
+    tags: '3 LTRS | Soup',
   },
 ];
 
@@ -79,4 +101,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { special_soups, Protein_Pasta, awards };
