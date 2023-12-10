@@ -21,7 +21,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.nitan} alt="footer_logo" />
         <p className="p__opensans">&quot;"Discover your true essence by immersing yourself in the act of selfless giving.&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.spoon} alt="spoon" className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />
