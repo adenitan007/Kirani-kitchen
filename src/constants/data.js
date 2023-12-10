@@ -1,4 +1,4 @@
-const special_soups = [
+const SpecialSoup = [
   {
     title: 'Turkey Peppersoup',
     price: '#13K',
@@ -37,7 +37,7 @@ const special_soups = [
   },
 ];
 
-const Protein_Pasta = [
+const ProteinPasta = [
   {
     title: 'Turkey Peppersoup',
     price: '#13K',
@@ -78,4 +78,6 @@ const Protein_Pasta = [
 
 
 
-export default { special_soups, Protein_Pasta };
+const MenuList = { SpecialSoup, ProteinPasta };
+
+export default MenuList;

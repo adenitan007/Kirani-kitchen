@@ -16,7 +16,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import nitan from '../assets/nitan.png';
 
-export default {
+const img = {
   bg,
   chef,
   gallery01,
@@ -35,3 +35,6 @@ export default {
   nitan,
   N,
 };
+
+
+export default img;
