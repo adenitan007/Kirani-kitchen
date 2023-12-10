@@ -1,6 +1,6 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
-// import N from '../assets/N.png';
+import N from '../assets/N.png';
 import gallery01 from '../assets/gallery01.jpg';
 import gallery02 from '../assets/gallery02.jpg';
 import gallery03 from '../assets/gallery03.png';
@@ -33,5 +33,5 @@ export default {
   sign,
   quote,
   nitan,
-  // N,
+  N,
 };
